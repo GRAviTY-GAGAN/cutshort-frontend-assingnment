@@ -12,9 +12,9 @@ body{
   font-family: 'Inter', sans-serif;
 }
 
-.App {
+/* .App {
   width: 700px;
-}
+} */
 
 .header {
   display: flex;
@@ -237,9 +237,11 @@ input::placeholder {
 }
 
 @media screen and (max-width: 830px) {
-  .App {
+  /* .App {
     width: 500px;
-  }
+    justify-content: center;
+    align-items: center;
+  } */
 
   .line1{
     font-size: 28px;
@@ -277,14 +279,71 @@ input::placeholder {
 }
 
 @media screen and (max-width: 600px)  {
+  
+  .line1 {
+    font-size: 20px;
+}
+
+.line2 {
+    font-size: 11px;
+}
+
+.field2 {
+  width: 280px;
+}
+
+.line {
+  width: 24px;
+}
+
+.circle {
+  height: 36px;
+  width: 36px;
+}
+
   .box {
     flex-direction: column;
-    height: 342px;
-    gap: 25px;
+    height: 270px;
+    gap: 20px;
   }
 
   .box1, .box2 {
-    width: inherit;
-    height: 155px;
-  }
+    width: 276px;
+    height: 125px;
+}
+
+  .tik {
+    margin-bottom: 30px;
+    margin-top: 62px;
+}
+
+.name {
+  font-size: 12px;
+}
+
+input {
+  padding-left: 6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
+
+.link{
+  padding-left: 6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.my {
+  margin-top: 6px;
+}
+
+.team {
+  margin-top: 4px;
+  font-size: 12px;
+}
+
 }
