@@ -236,7 +236,7 @@ input::placeholder {
   font-weight: 500;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 830px) {
   .App {
     width: 500px;
   }
@@ -260,5 +260,31 @@ input::placeholder {
   .circle {
     height: 38px;
     width: 38px;
+  }
+
+  .box{
+    width: 400px;
+    height: 195px;
+  }
+
+  .logo {
+    width: 49px;
+  }
+
+  .h-text {
+    font-size: 1.6rem;
+}
+}
+
+@media screen and (max-width: 600px)  {
+  .box {
+    flex-direction: column;
+    height: 342px;
+    gap: 25px;
+  }
+
+  .box1, .box2 {
+    width: inherit;
+    height: 155px;
   }
 }
